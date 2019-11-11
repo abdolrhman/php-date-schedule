@@ -21,5 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
  //- when he start
  //- when he ends
  //-days will he be attending every week
-Route::get('/foo','SessionController@Scheduler');
-Route::post('/ss', 'SessionController@Scheduler');
+Route::post('/scheduler', 'SessionController@Scheduler');
